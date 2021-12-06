@@ -13,6 +13,7 @@
 		F898A28E275E5592004AFFAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F898A28C275E5592004AFFAB /* Main.storyboard */; };
 		F898A290275E5594004AFFAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F898A28F275E5594004AFFAB /* Assets.xcassets */; };
 		F898A293275E5594004AFFAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F898A291275E5594004AFFAB /* LaunchScreen.storyboard */; };
+		F8E855DD275E5A6A004506BC /* AppKit in Frameworks */ = {isa = PBXBuildFile; productRef = F8E855DC275E5A6A004506BC /* AppKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8E855DD275E5A6A004506BC /* AppKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +44,7 @@
 			children = (
 				F898A285275E5592004AFFAB /* iOS */,
 				F898A284275E5592004AFFAB /* Products */,
+				F8E855DB275E5A6A004506BC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +70,13 @@
 			path = iOS;
 			sourceTree = "<group>";
 		};
+		F8E855DB275E5A6A004506BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,6 +93,9 @@
 			dependencies = (
 			);
 			name = Staging;
+			packageProductDependencies = (
+				F8E855DC275E5A6A004506BC /* AppKit */,
+			);
 			productName = Staging;
 			productReference = F898A283275E5592004AFFAB /* Staging.app */;
 			productType = "com.apple.product-type.application";
@@ -358,6 +371,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F8E855DC275E5A6A004506BC /* AppKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AppKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F898A27B275E5592004AFFAB /* Project object */;
 }

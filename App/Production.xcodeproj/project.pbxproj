@@ -13,6 +13,7 @@
 		F898A26E275E5482004AFFAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F898A26C275E5482004AFFAB /* Main.storyboard */; };
 		F898A270275E5484004AFFAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F898A26F275E5484004AFFAB /* Assets.xcassets */; };
 		F898A273275E5484004AFFAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F898A271275E5484004AFFAB /* LaunchScreen.storyboard */; };
+		F8E855E0275E5A73004506BC /* AppKit in Frameworks */ = {isa = PBXBuildFile; productRef = F8E855DF275E5A73004506BC /* AppKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8E855E0275E5A73004506BC /* AppKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +44,7 @@
 			children = (
 				F898A265275E5482004AFFAB /* iOS */,
 				F898A264275E5482004AFFAB /* Products */,
+				F8E855DE275E5A73004506BC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +70,13 @@
 			path = iOS;
 			sourceTree = "<group>";
 		};
+		F8E855DE275E5A73004506BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,6 +93,9 @@
 			dependencies = (
 			);
 			name = Production;
+			packageProductDependencies = (
+				F8E855DF275E5A73004506BC /* AppKit */,
+			);
 			productName = Production;
 			productReference = F898A263275E5482004AFFAB /* Production.app */;
 			productType = "com.apple.product-type.application";
@@ -358,6 +371,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F8E855DF275E5A73004506BC /* AppKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AppKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F898A25B275E5482004AFFAB /* Project object */;
 }
