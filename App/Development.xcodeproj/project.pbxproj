@@ -40,7 +40,7 @@
 		F898A29A275E563F004AFFAB = {
 			isa = PBXGroup;
 			children = (
-				F898A2A5275E563F004AFFAB /* Development */,
+				F898A2A5275E563F004AFFAB /* iOS */,
 				F898A2A4275E563F004AFFAB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,7 +53,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F898A2A5275E563F004AFFAB /* Development */ = {
+		F898A2A5275E563F004AFFAB /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				F898A2A6275E563F004AFFAB /* AppDelegate.swift */,
@@ -64,7 +64,7 @@
 				F898A2B1275E5642004AFFAB /* LaunchScreen.storyboard */,
 				F898A2B4275E5642004AFFAB /* Info.plist */,
 			);
-			path = Development;
+			path = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
